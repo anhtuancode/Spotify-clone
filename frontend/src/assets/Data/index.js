@@ -33,7 +33,7 @@ import radio1 from "../Icon/Radio/BuiTruongLinh.jpg";
 import radio2 from "../Icon/Radio/HaAnhTuan.jpg";
 import radio3 from "../Icon/Radio/HieuThu2.jpg";
 import radio4 from "../Icon/Radio/sonTung.jpg";
-import radio5 from "../Icon/Radio/SooBin.jpg";
+import radio5 from "../Icon/Radio/Soobin.jpg";
 import radio6 from "../Icon/Radio/tlinh.jpg";
 import radio7 from "../Icon/Radio/Vu.jpg";
 
