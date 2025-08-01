@@ -1,4 +1,4 @@
-import SectionWrapper from "../components/sectionWrapper";
+import SectionWrapper from "../components/SectionWrapper";
 import SongCard from "../components/SongCard";
 import { useRef } from "react";
 

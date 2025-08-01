@@ -1,5 +1,5 @@
 import ChartCard from "../components/ChartCard";
-import SectionWrapper from "../components/sectionWrapper";
+import SectionWrapper from "../components/SectionWrapper";
 import { useRef } from "react";
 
 export default function ChartSection({ charts }) {

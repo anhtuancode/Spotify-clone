@@ -1,5 +1,5 @@
 import ArtistCard from "../components/ArtistCard";
-import SectionWrapper from "../components/sectionWrapper";
+import SectionWrapper from "../components/SectionWrapper";
 import { useRef } from "react";
 
 export default function ArtistSection({ artists }) {
