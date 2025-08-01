@@ -1,5 +1,5 @@
 import CategoryCard from "../components/CategoryCard";
-import SectionWrapper from "../components/sectionWrapper";
+import SectionWrapper from "../components/SectionWrapper";
 import { useRef } from "react";
 
 export default function StyleSection({ categorys }) {
