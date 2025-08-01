@@ -5,6 +5,7 @@ import {
   FolderOpenOutlined,
 } from "@ant-design/icons";
 import { FaSpotify } from "react-icons/fa";
+import { Link } from "react-router-dom"; // ✅ Import Link
 
 const { Header } = Layout;
 
@@ -36,9 +37,15 @@ export default function Navbar() {
       {/* Right section: Links and actions */}
       <div className="flex items-center gap-6 text-sm font-semibold">
         <div className="flex gap-4 text-gray-400">
-          <span className="hover:text-white cursor-pointer transform transition duration-150 hover:scale-105">Premium</span>
-          <span className="hover:text-white cursor-pointer transform transition duration-150 hover:scale-105">Support</span>
-          <span className="hover:text-white cursor-pointer transform transition duration-150 hover:scale-105">Download</span>
+          <span className="hover:text-white cursor-pointer transform transition duration-150 hover:scale-105">
+            Premium
+          </span>
+          <span className="hover:text-white cursor-pointer transform transition duration-150 hover:scale-105">
+            Support
+          </span>
+          <span className="hover:text-white cursor-pointer transform transition duration-150 hover:scale-105">
+            Download
+          </span>
         </div>
 
         <Divider
@@ -47,12 +54,17 @@ export default function Navbar() {
         />
 
         <div className="flex items-center gap-4">
-          <span className="text-gray-400 hover:text-white cursor-pointer transform transition duration-150 hover:scale-105">
+          <Link
+            to="/signup"
+            className="text-gray-400 hover:text-white cursor-pointer transform transition duration-150 hover:scale-105"
+          >
             Sign up
-          </span>
-          <Button className="bg-white text-black rounded-full px-6 py-1.5 text-base hover:opacity-90 transform transition duration-150 hover:scale-105">
-            Log in
-          </Button>
+          </Link>
+          <Link to="/login">
+            <Button className="bg-white text-black rounded-full px-6 py-1.5 text-base hover:opacity-90 transform transition duration-150 hover:scale-105">
+              Log in
+            </Button>
+          </Link>
         </div>
       </div>
     </Header>

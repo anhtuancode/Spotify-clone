@@ -5,12 +5,14 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import LoginForm from './pages/Login'
 import SignupForm from './pages/Register'
 import Home from './pages/Home'
+import DetailTrend from './pages/DetailTrendSong'
+import DetailAlbum from './pages/DetailAlbum'
 
 
 const routers = createBrowserRouter([
   {
     path: '/',
-    element: <Home/>,
+    element: <Home />,
   },
   {
     path: '/login',
@@ -19,6 +21,14 @@ const routers = createBrowserRouter([
   {
     path: '/signup',
     element: <SignupForm />,
+  },
+  {
+    path: '/album/:id',
+    element: <DetailAlbum />,
+  },
+  {
+    path: '/trend/:id',
+    element: <DetailTrend />,
   },
 ])
 

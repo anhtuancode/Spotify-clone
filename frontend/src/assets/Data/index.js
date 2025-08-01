@@ -53,63 +53,77 @@ import style4 from "../Icon/Style/PopHit.jpg";
 import style5 from "../Icon/Style/Qt.jpg";
 import style6 from "../Icon/Style/Suy.jpg";
 
-
 export const TrendingSong = [
   {
-    idAlbum: 0,
+    id: 0,
     title: "Ai Cũng Phải Bắt Đầu từ đâu đó",
     artist: "HIEUTHUHAI",
     image: song1,
+    description:
+      "Một bản rap truyền cảm, nói về hành trình khởi đầu và cố gắng vươn lên.",
   },
   {
-    idAlbum: 1,
+    id: 1,
     title: "Bật Nổ Lên",
     artist: "Tăng Duy Tân",
     image: song2,
+    description: "Ca khúc sôi động truyền cảm hứng và năng lượng tích cực.",
   },
   {
-    idAlbum: 2,
+    id: 2,
     title: "Đánh Đổi",
     artist: "Obito",
     image: song3,
+    description: "Lời tâm sự về những hy sinh để theo đuổi đam mê âm nhạc.",
   },
   {
-    idAlbum: 3,
+    id: 3,
     title: "MTP Collection",
     artist: "Sơn Tùng M-TP",
     image: song4,
+    description:
+      "Tuyển tập các bản hit nổi bật của Sơn Tùng trong sự nghiệp âm nhạc.",
   },
   {
-    idAlbum: 4,
+    id: 4,
     title: "Từng Ngày Như Mãi Mãi",
     artist: "Vũ.",
     image: song5,
+    description: "Bản ballad nhẹ nhàng mang chất tự sự và tình cảm sâu lắng.",
   },
   {
-    idAlbum: 5,
+    id: 5,
     title: "Dữ Liệu Quý",
     artist: "Orange",
     image: song6,
+    description:
+      "Một sáng tác mới mẻ khai thác chủ đề công nghệ và cảm xúc con người.",
   },
   {
-    idAlbum: 6,
+    id: 6,
     title: "Lặng",
     artist: "Thịnh Suy",
     image: song7,
+    description:
+      "Mang phong cách indie mộc mạc, gợi cảm giác cô đơn và suy tư.",
   },
   {
-    idAlbum: 7,
+    id: 7,
     title: "Rosie",
     artist: "Ngọt",
     image: song8,
+    description:
+      "Bản tình ca indie-pop vui tươi và đầy chất thơ của ban nhạc Ngọt.",
   },
   {
-    idAlbum: 8,
+    id: 8,
     title: "Wxrdies",
     artist: "Wxrdie",
     image: song9,
+    description: "Bài rap cá tính với phong cách trap đặc trưng và chất riêng.",
   },
 ];
+
 
 export const Artists = [
   {
@@ -153,41 +167,65 @@ export const Albums = [
   {
     idAlbum: 0,
     artist: "Obito",
+    title: "Simple Love",
+    description:
+      "Một hành trình âm nhạc trẻ trung và tràn đầy cảm xúc về tình yêu đầu đời.",
     image: album1,
   },
   {
     idAlbum: 1,
     artist: "Mono",
+    title: "22",
+    description:
+      "Album đánh dấu tuổi trẻ đầy hoài bão với phong cách pop hiện đại và sâu lắng.",
     image: album2,
   },
   {
     idAlbum: 2,
     artist: "Orange",
+    title: "Tình Nhân Ơi",
+    description:
+      "Giai điệu nhẹ nhàng, da diết kể về những mối tình đã qua và ký ức không thể quên.",
     image: album3,
   },
   {
     idAlbum: 3,
     artist: "Bezamin",
+    title: "Lost In Life",
+    description:
+      "Hành trình tìm lại chính mình giữa những bộn bề và mông lung của cuộc sống.",
     image: album4,
   },
   {
     idAlbum: 4,
     artist: "Thịnh Suy",
+    title: "Tiny Things",
+    description:
+      "Những điều nhỏ bé trong cuộc sống được kể lại bằng giai điệu mộc mạc và chân thành.",
     image: album5,
   },
   {
     idAlbum: 5,
     artist: "Ngọt",
+    title: "3 (Ba)",
+    description:
+      "Chất indie-pop đặc trưng, gần gũi, đầy tự sự và đậm màu sắc đời sống.",
     image: album6,
   },
   {
     idAlbum: 6,
     artist: "Wxrdie",
+    title: "Diện Mạo",
+    description:
+      "Phong cách rap độc đáo, thể hiện cá tính và cái tôi nghệ thuật mạnh mẽ.",
     image: album7,
   },
   {
     idAlbum: 7,
     artist: "Wxrdie",
+    title: "Stuck in Space",
+    description:
+      "Một chuyến phiêu lưu không gian âm nhạc mang màu sắc tương lai và bí ẩn.",
     image: album8,
   },
 ];
@@ -249,17 +287,17 @@ export const Charts = [
   {
     idAlbum: 3,
     artist: "Top 50 Viral Music Global",
-    image: chart4,  
+    image: chart4,
   },
   {
     idAlbum: 4,
     artist: "Top 50 Viral Music Viet Nam",
-    image: chart5,  
+    image: chart5,
   },
   {
     idAlbum: 5,
     artist: "Viet Nam",
-    image: chart6,  
+    image: chart6,
   },
 ];
 
@@ -294,4 +332,4 @@ export const Styles = [
     artist: "Indie",
     image: style6,
   },
-]
+];

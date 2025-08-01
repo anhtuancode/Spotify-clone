@@ -2,7 +2,7 @@ import { FaPlus, FaGlobe } from "react-icons/fa";
 
 export default function Sidebar() {
   return (
-    <div className="w-72 h-screen bg-[#121212] text-gray-300 flex flex-col justify-between p-4 rounded-2xl">
+    <div className="w-72 h-full bg-[#121212] text-gray-300 flex flex-col justify-between p-4 rounded-2xl">
       <div className="overflow-y-auto">
         <div className="flex justify-between items-center px-2 mb-4">
           <h2 className="text-white font-semibold">Your Library</h2>

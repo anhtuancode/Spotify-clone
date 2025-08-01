@@ -1,5 +1,6 @@
 import { FaGoogle, FaApple, FaFacebookF } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
+import { Link } from "react-router-dom"; // ✅ Import Link
 
 export default function LoginForm() {
   return (
@@ -51,9 +52,9 @@ export default function LoginForm() {
 
         <p className="text-center text-sm text-gray-400 mt-6">
           Don't have an account?{" "}
-          <a href="#" className="text-white underline">
+          <Link to="/signup" className="text-white underline">
             Sign up for Spotify
-          </a>
+          </Link>
         </p>
       </div>
     </div>
