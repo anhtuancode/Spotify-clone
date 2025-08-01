@@ -1,7 +1,7 @@
 import Navbar from "../components/Header";
 import Sidebar from "../components/Sidebar";
-import Footer from "../components/footer";
-import DetailTrendLayout from "../layouts/DetailTrend";
+import Footer from "../components/Footer";
+import DetailTrendLayout from "../layouts/DetailTrendLayOut";
 
 export default function DetailTrend() {
   return (

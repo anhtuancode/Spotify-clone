@@ -1,7 +1,7 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Header";
 import Sidebar from "../components/Sidebar";
-import Footer from "../components/footer";
-import DetailAlbumLayout from "../layouts/DetailAlbum";
+import DetailAlbumLayout from "../layouts/DetailAlbumLayout";
 
 export default function DetailAlbum() {
   return (

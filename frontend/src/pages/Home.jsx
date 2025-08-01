@@ -1,7 +1,7 @@
 import HomeLayout from "../layouts/HomeLayout";
 import Navbar from "../components/Header";
 import Sidebar from "../components/Sidebar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
